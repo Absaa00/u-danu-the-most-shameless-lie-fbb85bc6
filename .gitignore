@@ -1,0 +1,14 @@
+# .gitignore — The Most Shameless Lie (u-danu)
+# Keeps the repo to the entry itself: no kit downloads, no local runs,
+# no bytecode, no transcript bundles, no grader output.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+output/
+entry.txt
+kit.zip
+u-danu-the-most-shameless-lie-fbb85bc6-kit/
+bundle*.tar.gz
+transcripts*.tar.gz
+*.log
+.DS_Store
